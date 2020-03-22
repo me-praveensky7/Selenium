@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Title is Matching Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]]>
+    </line>
+    <line>
+      <![CDATA[Title is Matching Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!]]>
+    </line>
+    <line>
+      <![CDATA[Amazon has less price and the price is 48900]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21309" started-at="2020-03-22T18:53:42Z" finished-at="2020-03-22T18:54:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21309" started-at="2020-03-22T18:53:42Z" finished-at="2020-03-22T18:54:03Z">
+      <class name="script.GetLowsetIPhonePrice">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:script.GetLowsetIPhonePrice@39aeed2f]" name="openApplication" is-config="true" duration-ms="1921" started-at="2020-03-22T18:53:42Z" finished-at="2020-03-22T18:53:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="iphone()[pri:0, instance:script.GetLowsetIPhonePrice@39aeed2f]" name="iphone" duration-ms="19081" started-at="2020-03-22T18:53:44Z" finished-at="2020-03-22T18:54:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is Matching Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]]>
+            </line>
+            <line>
+              <![CDATA[Title is Matching Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!]]>
+            </line>
+            <line>
+              <![CDATA[Amazon has less price and the price is 48900]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- iphone -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:script.GetLowsetIPhonePrice@39aeed2f]" name="closeApplication" is-config="true" duration-ms="285" started-at="2020-03-22T18:54:03Z" finished-at="2020-03-22T18:54:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- script.GetLowsetIPhonePrice -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
