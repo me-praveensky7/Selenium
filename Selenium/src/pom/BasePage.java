@@ -45,7 +45,7 @@ public class BasePage {
 		
 		//Navigate to specified URL
 		public void navigateTOURL(String URL) {
-			driver.navigate().to(URL);
+			driver.get(URL);
 		}
 		
 		
